@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <ul>
+                <li *ngFor="let c of customerList">
+                    <customer [customerModel]=c></customer>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
